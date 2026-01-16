@@ -5,9 +5,9 @@ namespace HRAPP
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            //ConfirmEmployee confirmEmployee = new ConfirmEmployee(30000,"Analyst","Jack","Chandrapur");
-           // ConfirmEmployee confirmEmployee1 = new ConfirmEmployee(12000, "Analyst", "Bhavik", "Chandrapur");
+            Console.WriteLine("Testing git!");
+            ConfirmEmployee confirmEmployee = new ConfirmEmployee(30000, "Analyst", "Jack", "Chandrapur");
+            ConfirmEmployee confirmEmployee1 = new ConfirmEmployee(12000, "Analyst", "Bhavik", "Chandrapur");
             ConfirmEmployee confirmEmployee2;
             try
             {
@@ -19,9 +19,9 @@ namespace HRAPP
             {
                 Console.WriteLine(ex.Message);
             }
-            //Console.WriteLine(confirmEmployee);
-            //Console.WriteLine(confirmEmployee1);
-            //Console.WriteLine(confirmEmployee.CalculateSalary());
+            Console.WriteLine(confirmEmployee);
+            Console.WriteLine(confirmEmployee1);
+            Console.WriteLine(confirmEmployee.CalculateSalary());
             Trainee trainee = new Trainee(5,2.20,"bhavik","Chandrapur");
             Console.WriteLine(trainee);
             Console.WriteLine(trainee.CalculateSalary());
